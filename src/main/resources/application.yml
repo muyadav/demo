@@ -1,0 +1,6 @@
+spring:
+  main:
+    spring.batch.job.enabled : false
+        
+  common :
+     pat : :2hogsyv4fer2zk657ktr3ouazdfuwejoti76tya6bgawkmhqrwzq      

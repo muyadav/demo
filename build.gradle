@@ -12,8 +12,13 @@ repositories {
 	mavenCentral()
 }
 
+ext {
+ httpClient = '4.4.1'
+}
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compile group: 'org.apache.httpcomponents', name: 'httpclient', version: httpClient
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
